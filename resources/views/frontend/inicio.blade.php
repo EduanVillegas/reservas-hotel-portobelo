@@ -1,0 +1,11 @@
+@extends('frontend.plantilla')
+@section('content')
+@include('frontend/modulos/header')
+@include('frontend/modulos/banner')
+@include('frontend/modulos/planes')
+@include('frontend/modulos/habitaciones')
+@include('frontend/modulos/recorrido-pueblo')
+@include('frontend/modulos/restaurante')
+@include('frontend/modulos/footer')
+@include('frontend/modulos/modal')
+@endsection
